@@ -1,3 +1,5 @@
+// Exercise #10
+
 class numbersOutput60{
   public static void main(String[] args) {
     for (int j = 0; j < 6; j++) {
