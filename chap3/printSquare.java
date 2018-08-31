@@ -1,4 +1,4 @@
-// Exercise #3
+// Exercise #4
 
 class printSquare{
   public static void main(String[] args) {
