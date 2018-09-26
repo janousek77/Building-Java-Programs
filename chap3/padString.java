@@ -6,7 +6,7 @@ class padString{
   }
 
   public static String padString(String word, int length) {
-    for (int i = 0; i<length-word.length(); ) {
+    for (int i = 0; i<length-word.length(); i++) {
       word=" "+word;
     }
     return word;
