@@ -1,11 +1,12 @@
 // Exercise 16
 
-class sphereVolume{
+class triangleArea{
   public static void main(String[] args) {
-    System.out.println(sphereVolume(2.0));
+    System.out.println(triangleArea(8, 5.2, 7.1));
   }
 
-  public static double sphereVolume(double radius) {
-    return Math.PI*Math.pow(radius,3)*4/3;
+  public static double triangleArea(double a, double b, double c) {
+    double s = (a+b+c)/2;
+    return Math.sqrt(s*(s-a)*(s-b)*(s-c));
   }
 }
