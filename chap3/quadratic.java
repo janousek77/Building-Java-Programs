@@ -1,6 +1,6 @@
 // Exercise 8
 
-public class eight {
+public class quadratic {
   public static void main(String[] args) {
     quadratic(1, -7, 12);
     quadratic(1, -3, 2);
